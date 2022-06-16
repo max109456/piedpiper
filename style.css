@@ -1,0 +1,265 @@
+.align {
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+	height:84px;
+	width:100%;
+	background:#007765;
+	margin: 0;
+	position:fixed;
+	display:block;
+	z-index: 255;
+}
+
+#logo{
+	height: 45px;
+	padding-bottom: 19px;
+	padding-top: 20px;
+	float:left;
+}
+
+
+.header .links{
+	display: inline-block;
+    float: right;
+}
+
+.header ul{
+	list-style-type: none;
+	display: inline-block;
+	margin-bottom: 26px;
+	margin-top:29px;
+}
+
+
+.header li{
+	display:inline-block;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-style: normal;
+	text-align: center;
+	border-right:solid 2px white;
+}
+
+.header .links a{
+	text-decoration: none;
+	color:white;
+
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.header .links a:hover{
+	text-decoration: underline;
+}
+
+#teamlink{
+	border-right:none;
+}
+
+#pn-is-here{
+	color:red;
+	font-size: 150px;
+}
+
+#pipernet{
+	width:100%;
+	position: relative;
+	margin-bottom: 0;
+}
+
+#coin{
+	background-color: white;
+	margin-top: -40px;
+}
+
+.underhead {
+    background: url(image/background1.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    display: inline-block;
+}
+
+.tagline {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.problem {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background: #EEEEEE;
+    display: inline-block;
+}
+
+.headline {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+
+    text-align: center;
+
+    color: #007765;
+
+}
+
+.problem_text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    color: #000000;
+}
+
+.underproblem {
+    background: url(image/background2.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+}
+
+.tagline2 {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 4%;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.introducing {
+    background: white;
+    width: 100%;
+    height: 550px;
+    display: inline-block;
+}
+
+.introducing_logo {
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 115px;
+    height: 115px;
+}
+
+.introducing_text2 {
+    padding-left: 5%;
+    padding-right: 5%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.team {
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+    text-align: center;
+
+    background: #EEEEEE;
+}
+
+content{
+
+	text-align: center;
+	width:1219px;
+	margin:auto;
+	margin-top:0;
+	margin-bottom: 0;
+	padding-left: 55px;
+	padding-right: 55px;
+	display:block;
+
+}
+
+.team-member{
+	display: inline-block;
+	margin-top:-48px;
+}
+
+.team-member img{
+	width: 168px;
+	height: 168px;
+	margin:0;
+	margin-top:56px;
+	margin-bottom: 12px;
+	padding-right: 91px;
+	padding-left: 91px;
+	padding-top: 24px;
+}
+
+.team-member h4{
+	color:#007765;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+
+	margin: 0;
+}
+
+.team-member h5{
+	color:black;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+
+	margin: 0;
+
+	padding-bottom: 28px;
+}
+
+footer{
+	background-color:  #333333;
+	width:100%;
+}
+
+footer p{
+	width:540px;
+	padding-top: 48px;
+	padding-bottom: 64px;
+	text-align: center;
+	color:white;
+	margin: auto;
+
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+}
