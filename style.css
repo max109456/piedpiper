@@ -1,7 +1,6 @@
 .align {
     max-width: 1219px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding: 55px;
 }
 
 body {
